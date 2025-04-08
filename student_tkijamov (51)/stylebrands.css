@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+header{
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7); 
+	height: 40px;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+}
+header nav ul li{
+    display: inline-block
+}
+header nav ul li:hover{
+    border-bottom: 3px solid rgb(102, 102, 102);
+    transition: 2s;
+}
+.search{
+    position:absolute;
+    top:20px;
+    left:430px;
+
+    
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+	
+    
+}
+.menu{
+
+	list-style-type: none;
+	top: 2px;
+    float:right;
+    font-size: 11px;
+    color:black;
+    
+}
+ul{
+    list-style: none;
+    float:right;
+   
+}
+a{
+    text-decoration: none;
+    font-size:11px;
+    margin:3px ;
+    float:right;
+    top: 2px;
+    margin-top: -15px;
+    margin-right: 5px;
+    
+    
+}
+li{
+    display: inline;
+    float:right;
+    top: 2px;
+}
+.navigation{
+    width:200px;
+    height:30px;
+    right: 20px;
+    top: 5px;
+    position:absolute;
+    
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    color: #000;
+    max-width:100%;
+
+
+}
+.catalog{
+    width:1200px;
+    height:640px;
+    margin-left:120px;
+    margin-right:400px;
+    padding-top:160px;
+
+}
+.Uznatbolshe{
+    display:flex;
+    width:1400px;
+    height:40px;
+    background:rgba(175,242,255,1);
+    margin-left:-30px;
+}
+.viewall{
+    display:flex;
+    /*font-family: Roboto Condensed,sans-serif;
+    font-weight: 300;
+    font-size: 14px; */
+    margin-left: 48em;
+    /*line-height: 16px;*/
+    margin-top:0.5em;
+
+}
+.arrowall{
+    display:flex;
+    width:80px;
+    height:20px;
+    margin-left: -30px;
+    margin-top:-0.18em;
+}
+.viewall1{
+    display:flex;
+    font-family: Roboto Condensed,sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+   /* margin-left: 56em;
+    line-height: 16px;
+    margin-top:0.5em; */
+}
+
+
+.OKS{
+    display:flex;
+    margin-left:2em;
+    margin-top:0.4em;
+    font-family: Roboto Condensed,sans-serif;
+    font-weight:bold;
+}
+.elevatestyle{
+    display:flex;
+    margin-left:0em;
+    margin:0.4em;
+    font-family: Roboto Condensed,sans-serif;
+    font-weight:lighter;
+}
+
+
+.catalogtytle{
+    display:flex;
+    font-size: 20px;
+    font-weight:bold;
+    top:1em;
+    margin-left:0px;
+    font-family: Roboto Condensed,sans-serif;
+    margin-top: 2em;
+    
+}
+.Hottestgbrands{
+    display: flex;
+    justify-content:space-around;
+    margin:2px;
+    width:180px;
+    height:180px;
+
+}
+
+.brand{
+    display: flex;
+    justify-content:space-around;
+    margin:2px;
+    width:200px;
+    height:280px;
+    margin-left: 0em;
+    margin-top:1em;
+}
+.brand1{
+    display: flex;
+    justify-content:space-around;
+    margin:2px;
+    width:200px;
+    height:280px;
+    margin-left: 1em;
+    margin-top:1em;
+}
+.viewall111{
+    display:flex;
+    /*font-family: Roboto Condensed,sans-serif;
+    font-weight: 300;
+    font-size: 14px; */
+    margin-left: -5em;
+    /*line-height: 16px;*/
+    margin-bottom:3em;
+
+}
+.arrowall111{
+    display:flex;
+    width:80px;
+    height:20px;
+    margin-left: -30px;
+    margin-bottom:4em;
+}
+.viewall1111{
+    display:flex;
+    font-family: Roboto Condensed,sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+.AboutKiaStore{
+    display:flex;
+    position:relative;
+    width:1350px;
+    height:200px;
+    background: rgb(247,247,255);
+    background: linear-gradient(0deg, rgba(247,247,255,1) 1%, rgba(175,242,255,1) 35%);
+    top:150px;
+}
+.create-line33 {
+    position:absolute;
+    top:2000px;
+    width: 1510px;
+    border-top: 1px solid #2e3031;
+}
+
+footer{
+    width:1521px;
+    height:300px;
+    background-color: #ffffff;
+}
+.bannerfoot{
+    display: flex;
+    width:100px;
+    height:150px;
+    margin-top:70px;
+    margin-left:100px;
+}
+.foottype1{
+    display: flex;
+    margin-left:500px;
+    margin-top:70px;
+}
+
+h1, h2, p {
+    margin: 0;
+}

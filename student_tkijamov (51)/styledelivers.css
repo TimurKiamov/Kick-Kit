@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+header{
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7); 
+	height: 40px;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+   
+}
+header nav ul li{
+    display: inline-block
+}
+header nav ul li:hover{
+    border-bottom: 3px solid rgb(102, 102, 102);
+    transition: 2s;
+}
+.search{
+    position:absolute;
+    top:20px;
+    left:430px;
+
+    
+}
+
+
+
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+	
+    
+}
+.menu{
+
+	list-style-type: none;
+	top: 2px;
+    float:right;
+    font-size: 11px;
+    color:black;
+    
+}
+ul{
+    list-style: none;
+    float:right;
+   
+}
+a{
+    text-decoration: none;
+    font-size:11px;
+   
+    margin:3px ;
+    float:right;
+    top: 2px;
+    margin-top: -15px;
+    margin-right: 5px;
+    
+    
+}
+li{
+    display: inline;
+    float:right;
+    top: 2px;
+}
+.navigation{
+    width:200px;
+    height:30px;
+    right: 20px;
+    top: 5px;
+    position:absolute;
+    
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    color: #000;
+    max-width:100%;
+
+
+}
+.app-error-page{
+    display:flex;
+  padding-top:200px;
+  justify-content: center;
+
+}
+.text-center col{
+    display:flex;
+  padding-top:230px;
+  justify-content: center;
+
+}
+.app-checkout-fail_text{
+    display:flex;
+  padding-top:1px;
+  justify-content: center;
+
+}
+
+
+.v-btn__content{
+    padding-top:10px;
+    display:flex;
+    align-items:center;
+    background-color:rgb(38, 207, 201);
+    background-repeat:no-repeat;
+    border-bottom-color: rgb(38, 207, 201);
+    border-bottom-left-radius: 4px;
+    box-sizing:border-box;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    display:inline-flex;
+    flex-basis:auto;
+    flex-grow:0;
+    flex-shrink:0;
+    font-family:"Helvetica Neue", serif;
+    font-size:16px;
+    font-weight:500;
+    justify-content:center;
+    letter-spacing:0.16px;
+    line-height:24px;
+    min-width:64px;
+    outline-color:rgb(255, 255, 255);
+    outline-style:none;
+    outline-width:0px;
+    padding-bottom:0px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:16px;
+    margin-right:10px;
+}
