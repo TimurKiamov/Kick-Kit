@@ -25,18 +25,10 @@ header nav ul li:hover{
     position:absolute;
     top:20px;
     left:430px;
-
-    
 }
-
-
-
-
 .logo{
     font-size: 20px;
     font-weight: bold;
-	
-    
 }
 .menu{
 
@@ -55,14 +47,11 @@ ul{
 a{
     text-decoration: none;
     font-size:11px;
-   
     margin:3px ;
     float:right;
     top: 2px;
     margin-top: -15px;
     margin-right: 5px;
-    
-    
 }
 li{
     display: inline;
