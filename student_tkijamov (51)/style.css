@@ -78,6 +78,9 @@ li{
     position:absolute;
     
 }
+.wrapper{
+    height:5vh
+}
 
 
 
@@ -115,9 +118,6 @@ body {
     100%{
         bottom:30px;
     }
-}
-.wrapper{
-    height:5vh
 }
 
 

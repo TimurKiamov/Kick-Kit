@@ -1,74 +1,151 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вкладка Одежды Poizon Style</title>
-    <link rel="stylesheet" href="clothes.css">
-</head>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Медиа-запросы</title>
-    <link rel="stylesheet" href="clothes.css">
     <script defer src="js/clothes.js"></script>
+    <link rel="stylesheet" href="clothes.css">
+
+    <!--  Иконки Font Awesome (для звезд рейтинга, опционально) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
 </head>
-<!--<div id="wrap">
-	<header class="container">
-       
+<div id="wrap">
+    <header class="container-head">
         
-<div class = "logo">KIAMOV store</div>
-<nav class = "menu" >
-    <ul>
-        <li><a class="menu" href="deliveries.html">Доставки</a></li>
-        <li><a class="menu" href="favorites.html">Избранное</a></li>
-        <li><a class="menu" href="favorites.html">Профиль</a></li>
-        <li><a class="menu" href="basket.html">Корзина</a></li>
-    </ul>
-</nav>
-
-<img class="navigation" src="images/Group 2.svg">
-<img class="search" src="images/Frame 5.svg">
-
+        
+        <div class = "mainlogo">KIAMOV store</div>
+        <nav class = "menu" >
+            <ul>
+                <li><a class="menu" href="deliveries.html">Доставки</a></li>
+                <li><a class="menu" href="favorites.html">Избранное</a></li>
+                <li><a class="menu" href="favorites.html">Профиль</a></li>
+                <li><a class="menu" href="basket.html">Корзина</a></li>
+            </ul>
+        </nav>
+        
+        <img class="navigation" src="images/Group 2.svg">
+        <img class="search" src="images/Frame 5.svg">
+        
+    </div>
+</header>
 </div>
-    </header>
-</div> -->
 
 <body>
-        <div class="clothing-item">
-            <div class="image-carousel">
-                <div class="carousel-images">
-                    <img src="https://poizon.ru/storage/pro-img/origin-img/20220421/6c404d3ffe234030ba57786d27fd680f.jpg" alt="Одежда 1" class="carousel-image">
-                    <img src="img/clothing2.jpg" alt="Одежда 2" class="carousel-image">
-                    <img src="img/clothing3.jpg" alt="Одежда 3" class="carousel-image">
+    <main>
+     <h1>Nike Air Force 1 Low GS</h1>
+     <section class="single-product-viewer">
+        <div class="main-carousel-container">
+            <div class="main-carousel-track">
+                <div class="main-carousel-item">
+                    <img src="product-view1-large.jpg" alt="Вид 1 продукта">
                 </div>
-                <button class="carousel-button prev" onclick="prevSlide()">&#8249;</button>
-                <button class="carousel-button next" onclick="nextSlide()">&#8250;</button>
+                <div class="main-carousel-item">
+                    <img src="product-view2-large.jpg" alt="Вид 2 продукта">
+                </div>
+                <div class="main-carousel-item">
+                    <img src="product-view3-large.jpg" alt="Вид 3 продукта">
+                </div>
+                <!-- Добавьте больше видов продукта здесь -->
             </div>
-    
-            <div class="item-details">
-                <h2>Стильная Худи Oversize</h2>
-                <p class="price">₽ 4 999</p>
-                <div class="description">
-                    <p>Эта худи сочетает в себе комфорт и стиль, предлагая непринужденную элегантность для вашего повседневного гардероба. Изготовленная из мягкого органического хлопка, она идеально подходит для прохладных дней и вечеров. Oversize крой обеспечивает свободу движений и создает модный силуэт. Минималистичный дизайн делает эту худи универсальной основой для различных образов.</p>
-                    <ul>
-                        <li>Материал: 100% органический хлопок высшего качества</li>
-                        <li>Крой: Современный Oversize силуэт</li>
-                        <li>Сезон: Идеально подходит для Весны, Осени и прохладного Лета</li>
-                        <li>Уход: Легкая машинная стирка, деликатный отжим</li>
-                    </ul>
-                </div>
-                <div class="item-actions">
-                    <button class="add-to-cart">Добавить в корзину</button>
-                    <button class="add-to-wishlist">В избранное <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.83l-1.06-1.22a5.5 5.5 0 0 0-7.78 7.78L12 21.84l9.9-11.45a5.5 5.5 0 0 0 0-7.78z"></path></svg></button>
-                </div>
+            <button class="main-carousel-button prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+            </button>
+            <button class="main-carousel-button next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+            </button>
+        </div>
+
+        <div class="thumbnail-carousel-container">
+            <div class="thumbnail-track">
+                <!-- Миниатюры видов продукта -->
+                <div class="thumbnail-item active" data-index="0"><img src="product-view1-thumb.jpg" alt="Миниатюра вида 1"></div>
+                <div class="thumbnail-item" data-index="1"><img src="product-view2-thumb.jpg" alt="Миниатюра вида 2"></div>
+                <div class="thumbnail-item" data-index="2"><img src="product-view3-thumb.jpg" alt="Миниатюра вида 3"></div>
+                <!-- Добавьте больше миниатюр видов продукта здесь -->
             </div>
         </div>
-    
-        <script src="clothes.js"></script>
-    </body>
-    </html>
-    
+    </section>
+
+        <section class="product-details">
+            <h2>Nike Air Force 1 Low GS</h2>
+            <p class="brand">Nike: [Air Force 1 Low GS]</p>
+            <p class="price">16 872</p>
+
+            <div class="size-selection">
+                <h3>Выберите размер:</h3>
+                <div class="sizes">
+                    <button class="size-option" data-size="36">36</button>
+                    <button class="size-option" data-size="36.5">36.5</button>
+                    <button class="size-option" data-size="37.5">37.5</button>
+                    <button class="size-option" data-size="38">38</button>
+                    <button class="size-option" data-size="38.5">38.5</button>
+                    <button class="size-option" data-size="39">39</button>
+                    <button class="size-option disabled" data-size="40" disabled>XL (Нет в наличии)</button>
+                    <!-- ... другие размеры -->
+                </div>
+                <p class="size-guide-link"><a href="#">Таблица размеров</a></p>
+            </div>
+
+            <div class="product-description">
+                <h3>Описание</h3>
+                <p>[Подробное описание продукта. Особенности, материалы, преимущества и т.д.]</p>
+            </div>
+
+            <div class="product-features">
+                <h3>Характеристики</h3>
+                <ul>
+                    <li>Материал: [Материал 1], [Материал 2]</li>
+                    <li>Цвет: [Цвет]</li>
+                    <li>Сезон: [Сезон]</li>
+                                        <!-- ... другие характеристики -->
+                </ul>
+            </div>
+
+            <div class="add-to-cart">
+                <button class="add-button">Добавить в корзину</button>
+                <button class="buy-now-button">Купить сейчас</button>
+            </div>
+        </section>
+
+        <section class="reviews-section">
+            <h2>Отзывы покупателей</h2>
+
+            <div class="average-rating">
+                <p>Средний рейтинг: <span class="rating-value">4.8</span> из 5</p>
+                <div class="star-rating">
+                    <!-- Звезды рейтинга (используем Font Awesome и JS для динамического отображения) -->
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p class="review-count">(Всего отзывов) отзывов: <span class="count">125</span>)</p>
+            </div>
+
+            <div class="review-filters">
+                <!-- Фильтры отзывов -->
+                <button class="filter-button active" data-filter="all">Все отзывы</button>
+                <button class="filter-button" data-filter="5-star">5 звезд</button>
+                <button class="filter-button" data-filter="with-photo">С фото</button>
+            </div>
+
+            <div class="reviews-list">
+                <!-- Сюда будут динамически добавляться отзывы (см. script.js) -->
+            </div>
+
+            <div class="write-review">
+                <button class="write-review-button">Написать отзыв</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 [Название вашего магазина]</p>
+    </footer>
+
+    <!-- Подключаем jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!--Подключаем Slick Slider JS -->
+    <script src="clothes.js"></script>
+</body>
+</html>
+

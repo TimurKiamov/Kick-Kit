@@ -1,0 +1,116 @@
+/* Общие стили для просмотра продукта в стиле Poizon */
+.single-product-viewer {
+    max-width: 600px; /* Уменьшенная ширина для одного продукта */
+    margin: 30px auto; /* Увеличенный верхний и нижний margin для центрирования на странице */
+    padding: 25px; /* Немного больше padding */
+    background-color: #fff;
+    border-radius: 12px; /* Чуть более скругленные углы */
+    box-shadow: 0 3px 12px rgba(0,0,0,0.07); /* Чуть более выраженная тень */
+    font-family: 'Helvetica Neue', sans-serif; /* Современный шрифт, похожий на Poizon */
+}
+
+/* Стили для основной карусели */
+.main-carousel-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Скругление углов карусели */
+}
+
+.main-carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-out; /* Более плавная анимация */
+}
+
+.main-carousel-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.main-carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+    object-fit: cover;
+    aspect-ratio: 1/1; /* Квадратные изображения, как часто на Poizon для продуктов */
+}
+
+.main-carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.8); /* Чуть менее прозрачный фон кнопок */
+    border: none;
+    padding: 12px; /* Чуть больше padding для кнопок */
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.75; /* Чуть более видимые кнопки по умолчанию */
+    transition: opacity 0.25s ease-in-out; /* Более быстрая анимация для кнопок */
+}
+
+.main-carousel-button:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.9); /* Небольшое изменение фона при наведении */
+}
+
+.main-carousel-button.prev {
+    left: 15px; /* Больший отступ от края */
+}
+
+.main-carousel-button.next {
+    right: 15px; /* Больший отступ от края */
+}
+
+.main-carousel-button svg {
+    width: 22px; /* Чуть больше иконки */
+    height: 22px;
+    color: #444; /* Цвет иконок */
+}
+
+/* Стили для слайдера миниатюр в стиле Poizon */
+.thumbnail-carousel-container {
+    overflow: hidden;
+    margin-top: 20px; /* Больший отступ от основной карусели */
+}
+
+.thumbnail-track {
+    display: flex;
+    transition: transform 0.4s ease-out; /* Плавная анимация для миниатюр */
+    padding: 12px 0; /* Вертикальный паддинг для миниатюр */
+    justify-content: center; /* Центрирование миниатюр, особенно если их немного */
+}
+
+.thumbnail-item {
+    flex: 0 0 auto;
+    width: 70px; /* Чуть больше размер миниатюр */
+    margin-right: 10px; /* Больше расстояние между миниатюрами */
+    cursor: pointer;
+    opacity: 0.7; /* Чуть более видимые миниатюры по умолчанию */
+    transition: opacity 0.25s ease-in-out, border-color 0.25s ease-in-out; /* Быстрая анимация */
+    border: 2px solid transparent;
+    border-radius: 8px; /* Более скругленные углы миниатюр */
+    overflow: hidden;
+}
+
+.thumbnail-item:last-child {
+    margin-right: 0;
+}
+
+.thumbnail-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+    object-fit: cover;
+    height: 100%;
+    aspect-ratio: 1/1; /* Миниатюры квадратные */
+}
+
+.thumbnail-item.active {
+    opacity: 1;
+    border-color: #007bff; /* Цвет активной границы, можно настроить */
+}
+
+.thumbnail-item:hover {
+    opacity: 0.9; /* Небольшое увеличение непрозрачности при наведении */
+}

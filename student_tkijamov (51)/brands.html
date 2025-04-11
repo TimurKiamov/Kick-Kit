@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Медиа-запросы</title>
     <link rel="stylesheet" href="stylebrands.css">
-    <script defer src="js/main.js"></script>
+    <script defer src="js/brands.js"></script>
 </head>
 
 <div id = "wrap">
@@ -14,85 +14,260 @@
        
         
 <div class = "logo">KIAMOV store</div>
-<nav class = "menu" >
+<nav class = "menu">
     <ul>
-        <li><a class="menu" href="deliveries.html">Доставки</a></li>
-        <li><a class="menu" href="favorites.html">Избранное</a></li>
-        <li><a class="menu" href="favorites.html">Профиль</a></li>
-        <li><a class="menu" href="basket.html">Корзина</a></li>
+        <li ><a class="menumain" href="deliveries.html">Доставки</a></li>
+        <li ><a class="menumain" href="favorites.html">Избранное</a></li>
+        <li ><a class="menumain" href="favorites.html">Профиль</a></li>
+        <li ><a class="menumain" href="basket.html">Корзина</a></li>
     </ul>
 </nav>
 
 <img class="navigation" src="images/Group 2.svg">
 <img class="search" src="images/Frame 5.svg">
+</header>
+    <body>
+        <div class="body-catalog">
+        <div class="product-grid">
+                <!-- Карточка товара 1 -->
+                <div class="product-card"> 
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg&w=640&q=75" alt="Товар 1">
+                        
+                        <!-- Карусель (опционально, если нужно несколько изображений) -->
+                        <!--
+                        <div class="image-carousel">
+                            <div class="carousel-images">
+                                <img src="img/product1_1.jpg" alt="Товар 1 - 1" class="carousel-image">
+                                <img src="img/product1_2.jpg" alt="Товар 1 - 2" class="carousel-image">
+                                <img src="img/product1_3.jpg" alt="Товар 1 - 3" class="carousel-image">
+                            </div>
+                            <button class="carousel-button prev" onclick="prevSlide(this.closest('.product-card'))">&#8249;</button>
+                            <button class="carousel-button next" onclick="nextSlide(this.closest('.product-card'))">&#8250;</button>
+                        </div>
+                        -->
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">New Balance NB 530 D</h3>
+                        <p class="product-price">₽ 11 685</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+    
+                <!-- Карточка товара 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <a class="product-image" href="clothes.html">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/2025012410/36f6e4d8e64591345d63e938ce04250b.jpg&w=640&q=75"  alt="Товар 2">
+                        </a>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Nike Giannis Immortality 4 EP</h3>
+                        <p class="product-price">₽ 9 499</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+    
+                 <!-- Карточка товара 3 -->
+                 <div class="product-card">
+                     <div class="product-image">
+                         <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/20231129/cc738fd405d94348bfbde93fadc794c6.jpg&w=640&q=75" alt="Товар 3">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name">猫与沙发 脏辫系列 百搭休闲 轻松舒适 防滑耐磨 低帮 板鞋 男女同款 酒红</h3>
+                            <p class="product-price">₽ 8 016</p>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">В корзину</button>
+                            <button class="view-details">Подробнее</button>
+                        </div>
+                    </div>
 
-        
-    </header>
-<body>
-    <div class="backbrandsdiv">
-        <a class="backbrands" href="index.html">
-         <p class="backbrands">Назад</p>
-            <img class="arroback" src="images/arrow_right_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg">
-        </a>
-        </div>
-    <section class = "catalog">
-        <div class="Uznatbolshe"><p class="OKS">О KIAMOV store:</p>
-            <p class="elevatestyle">Улучшите свой стиль, улучшите свою жизнь.</p>
-            <div class="viewall">
-                <p class="viewall1">Посмотреть</p>
-                <img class="arrowall" src="images/arrow_right_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg">
-            </div>
-            
-            
-        </div>
-        <h class ="catalogtytle">Лучшие бренды</h>
-        <div class="Hottestgbrands">
-            <div class="brand">
-                <img src="images/a7594699-593d-9912-7228-e43c1bbddfae-600-840 nike poizon.webp">
-            </div>
-            <div class="brand1"><img src="images/fdc4c7cd-f02d-75a3-faad-dc23dea54043-600-840 jordan poizon.webp"></div>
-            <div class="brand1">
-                <img src="images/e1454a1a-6aef-3275-5b25-a8f2abb7db72-600-840 gucci poizon.webp">
-            </div>
-            <div class="brand1">
-                <img src="images/2582e2cb-c6ac-780e-d5ee-1c831ff40d2d-600-840 new balance poizon.webp">
-            </div>
-            <div class="brand1">
-                <img src="images/0a727c05-c4b1-ca34-125d-c2b33fe5e10d-600-840 adidas poizon.webp">
-            </div>
-            <div class="brand1">
-                <img src="images/cb85dd52-fb9b-959e-6f04-3e3dfba74ac9-600-840 Burberry poizon.webp">
-            </div>
-            <div class="viewall111">
-                <p class="viewall1111">Посмотреть</p>
-                <img class="arrowall111" src="images/arrow_right_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg">
-            </div>
-        </div>
-        <div class="AboutKiaStore"><p class="OKS">О KIAMOV store:</p>
-            <p class="elevatestyle">Улучшите свой стиль, улучшите свою жизнь.</p>
+                    <!-- Карточка товара 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/2025012410/bab71930c8d3fe3ccb47d7b5c2f71c0b.jpg&w=640&q=75" alt="Товар 4">
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-name">Nike Air More Uptempo Low Triple White</h3>
+                            <p class="product-price">₽ 14 215</p>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">В корзину</button>
+                            <button class="view-details">Подробнее</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка товара 5 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/20241006/bce05f4c64b540128fab7a00f2d0aa90.jpg&w=640&q=75" alt="Товар 5">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">New Balance NB 9060</h3>
+                        <p class="product-price">₽ 12 149 </p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+                    <!-- Карточка товара 6 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/20230718/e7889cbb7a2d4a008c171f6dbe3a7908.jpg&w=640&q=75" alt="Товар 5">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Nike Air Force 1 Low GS</h3>
+                        <p class="product-price">₽ 18 872</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+                    <!-- Карточка товара 7 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/20240413/8b4af5994156473aad32150547e2980c.jpg&w=640&q=75" alt="Товар 5">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">PUMA Suede XL</h3>
+                        <p class="product-price">₽ 9 935</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+                    <!-- Карточка товара 8 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/2025012410/a2cf4d55a138a08be30f5bd15fdad6b2.jpg&w=640&q=75" alt="Товар 8">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Nike Dunk SB City of Love</h3>
+                        <p class="product-price">₽ 15 249</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+                    <!-- Карточка товара 9 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/2025012410/80bca738a5e894b4f89159a28369c361.jpg&w=640&q=75" alt="Товар 9">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Nike Air Max Plus Drift</h3>
+                        <p class="product-price">₽ 21 448</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+                    <!-- Карточка товара 10 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/2025012410/d5bb5b342ab2f4d6e03f808834deb2fd.jpg&w=640&q=75" alt="Товар 10">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Nike Air Max Plus</h3>
+                        <p class="product-price">₽ 8 164</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+                    <!-- Карточка товара 11 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/2025012321/8929c0ce3bc75f5773b3d6e45c6d0d6f.jpg&w=640&q=75" alt="Товар 11">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">DJ Khaled x Jordan Air Jordan 5 "Crimson Bliss"</h3>
+                        <p class="product-price">₽ 25 138</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+                    <!-- Карточка товара 12 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/20230213/f3bb5a4c173f4db6969c354540f48e34.jpg&w=640&q=75" alt="Товар 12">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Asics Gel-Kahana TR V2</h3>
+                        <p class="product-price">₽ 11 411</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+                    <!-- Карточка товара 13 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/20230621/1c5efcaea54c4a5c880ca4c0237e75ba.jpg&w=640&q=75" alt="Товар 13">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">New Balance NB 550</h3>
+                        <p class="product-price">₽ 10 378</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+                    <!-- Карточка товара 14 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/2025012319/d7cdc4dcf6dfe24f6a95f7e5013bf08d.jpg&w=640&q=75" alt="Товар 14">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Nike Air Zoom G.T. Jump 2</h3>
+                        <p class="product-price">₽ 16 282</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
+                    <!-- Карточка товара 15 -->
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img-opt.unicorngo.ru/?url=https://cdn.poizon.com/pro-img/origin-img/2025012319/d7cdc4dcf6dfe24f6a95f7e5013bf08d.jpg&w=640&q=75" alt="Товар 12">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Nike Air Max 90 qs "valentine's day"</h3>
+                        <p class="product-price">₽ 24 400</p>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">В корзину</button>
+                        <button class="view-details">Подробнее</button>
+                    </div>
+                </div>
     
+                <!-- Добавьте больше карточек товаров здесь -->
+                <!-- ... -->
+    
+            </div>
         </div>
     
-    </section>
+        <script src="brands.js"></script>
+        </div>
     </body>
-    <div class="create-line33"></div>
-    <footer>
-        <div class="bannerfoot">
-            <img src="images/Kiamov store.JPEG">
-        </div>
-        <div class="foottype1">
-            <ul>
-    
-              <li> <p class="help1">Помощь</p></li> 
-                <li><p class="help">Личный кабинет</p></li>
-               <li><p class="help">Мои заказы</p> </li>
-               <li><p class="help">Условия покупки и возврата</p></li> 
-              <li> <p class="help">Чат со службой поддержки</p></li> 
-            </ul>
-        </div>
-    
-    
-    
-    </footer>
     </html>
-</body>
+    
+    

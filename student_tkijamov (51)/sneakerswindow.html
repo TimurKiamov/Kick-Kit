@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Просмотр Продукта в Стиле Poizon</title>
+    <link rel="stylesheet" href="sneakerswindow.css">
+</head>
+<body>
+    <div class="single-product-viewer">
+        <div class="main-carousel-container">
+            <div class="main-carousel-track">
+                <div class="main-carousel-item">
+                    <img src="product-view1-large.jpg" alt="Вид 1 продукта">
+                </div>
+                <div class="main-carousel-item">
+                    <img src="product-view2-large.jpg" alt="Вид 2 продукта">
+                </div>
+                <div class="main-carousel-item">
+                    <img src="product-view3-large.jpg" alt="Вид 3 продукта">
+                </div>
+                <!-- Добавьте больше видов продукта здесь -->
+            </div>
+            <button class="main-carousel-button prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+            </button>
+            <button class="main-carousel-button next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+            </button>
+        </div>
+
+        <div class="thumbnail-carousel-container">
+            <div class="thumbnail-track">
+                <!-- Миниатюры видов продукта -->
+                <div class="thumbnail-item active" data-index="0"><img src="product-view1-thumb.jpg" alt="Миниатюра вида 1"></div>
+                <div class="thumbnail-item" data-index="1"><img src="product-view2-thumb.jpg" alt="Миниатюра вида 2"></div>
+                <div class="thumbnail-item" data-index="2"><img src="product-view3-thumb.jpg" alt="Миниатюра вида 3"></div>
+                <!-- Добавьте больше миниатюр видов продукта здесь -->
+            </div>
+        </div>
+    </div>
+
+    <script src="sneakerswindow.js"></script>
+</body>
+</html>
