@@ -29,7 +29,7 @@ header nav ul li:hover{
     position:absolute;
     top:20px;
     left:430px;
-
+    
     
 }
 .logo{
@@ -39,8 +39,8 @@ header nav ul li:hover{
     
 }
 .menu{
-
-	list-style-type: none;
+    
+    list-style-type: none;
 	top: 2px;
     /*float:right;*/
     font-size: 11px;
@@ -51,12 +51,12 @@ header nav ul li:hover{
 ul{
     list-style: none;
     float:right;
-   
+    
 }
 a{
     text-decoration: none;
     font-size:11px;
-   
+    
     margin:3px ;
     float:right;
     top: 2px;
@@ -85,17 +85,33 @@ body {
     padding: 0;
     color: #333;
     line-height: 1.6;
-    background-color: #f9f9f9; /* Более светлый фон */
+    background-color: #fff; /* Более светлый фон */
+}
+main {
+    padding: 20px;
+    display: flex;
+   /* flex-wrap: wrap; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top:70px;
+}
+.product-averlage-description{
+    background-color: #fff;
+    border-radius: 8px;
+    min-width: 400px;
 }
 /* Общие стили для просмотра продукта в стиле Poizon */
 .single-product-viewer {
     max-width: 600px; /* Уменьшенная ширина для одного продукта */
-    margin: 30px auto; /* Увеличенный верхний и нижний margin для центрирования на странице */
+    /* margin: 30px auto; /* Увеличенный верхний и нижний margin для центрирования на странице */
     padding: 25px; /* Немного больше padding */
+    left:30px;
     background-color: #fff;
     border-radius: 12px; /* Чуть более скругленные углы */
-    box-shadow: 0 3px 12px rgba(0,0,0,0.07); /* Чуть более выраженная тень */
+   /* box-shadow: 0 3px 12px rgba(0,0,0,0.07); /* Чуть более выраженная тень */
     font-family: 'Helvetica Neue', sans-serif; /* Современный шрифт, похожий на Poizon */
+    margin-bottom: 10px;
+
 }
 
 /* Стили для основной карусели */
@@ -117,10 +133,10 @@ body {
 
 .main-carousel-item img {
     display: block;
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: auto;
     border-radius: inherit;
-    object-fit: cover;
+    object-fit: contain;
     aspect-ratio: 1/1; /* Квадратные изображения, как часто на Poizon для продуктов */
 }
 
@@ -187,10 +203,10 @@ body {
 
 .thumbnail-item img {
     display: block;
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: auto;
     border-radius: inherit;
-    object-fit: cover;
+    object-fit:contain;
     height: 100%;
     aspect-ratio: 1/1; /* Миниатюры квадратные */
 }
@@ -205,13 +221,6 @@ body {
 }
 
 
-main {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .product-gallery {
     width: 100%;
@@ -225,8 +234,10 @@ main {
     margin-bottom: 30px;
     background-color: #fff; /* Белый блок деталей продукта */
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Легкая тень */
+     border-radius: 8px; 
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Легкая тень */
+    margin:8px;
+    
 }
 
 .product-details h2 {
@@ -343,11 +354,14 @@ main {
     margin-bottom: 30px;
     border-top: 1px solid #eee;
     padding-top: 30px;
+    width: 100%;
+    
 }
 
 .reviews-section h2 {
     font-size: 1.6em;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 .average-rating {
@@ -356,6 +370,9 @@ main {
     display: flex;
     align-items: center;
     gap: 15px;
+    background-color: white;
+    border-radius: 8px;
+    margin:5px;
 }
 
 .average-rating p {
