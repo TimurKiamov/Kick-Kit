@@ -6,14 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="https://i.ibb.co/GP3dyzw/IMG-6199.jpg" />
     <title>Frontend-кейс</title>
-    <link rel="stylesheet" href="./style/basket.css" />
-    <script src="./js/basket.js" type="module" defer></script>
+    <link rel="stylesheet" href="./style/catalog.css" />
+    <script src="./js/catalog.js" type="module" defer></script>
   </head>
+  <header class="container">
+    <div class="logo">Kick & Kit</div>
+    <nav class="menu">
+      <ul>
+        <li><a class="menu" href="deliveries.html">Доставки</a></li>
+        <li><a class="menu" href="favorites.html">Избранное</a></li>
+        <li><a class="menu" href="favorites.html">Профиль</a></li>
+        <li><a class="menu" href="basket.html">Корзина</a></li>
+      </ul>
+    </nav>
+
+    <img class="navigation" src="images/Group 2.svg" />
+    <img class="search" src="images/Frame 5.svg" />
+  </header>
+
   <body>
     <div class="wrapper">
-      <h1>Корзина</h1>
-      <div class="cart"></div>
-      <button class="btn-send">Оформить заказ</button>
+      <h1>Товары нашего магазина</h1>
+      <div class="cards"></div>
+      <button class="show-cards none">Показать еще</button>
 
       <a href="/basket.html" class="basket">
         <div class="basket__inner">
@@ -58,8 +73,8 @@
       "
     >
       Подключайся к нам в телеграмм
-      <a target="_blank" href="https://t.me/frontend_case">@frontend_case</a>.
-      Помощь новичкам! Будем развиваться во фронтенд разработке вместе :)
+      <a target="_blank" href="https://t.me/timurkiamov">@timurkiamov</a>. Все
+      про развитие Kick & Kit
     </footer>
   </body>
 </html>
