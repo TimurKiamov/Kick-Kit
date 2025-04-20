@@ -73,7 +73,11 @@ sizeOptions.on("click", function () {
 const btn40 = document.querySelector('[data-size="40"]');
 const btn405 = document.querySelector('[data-size="405"]');
 const btn41 = document.querySelector('[data-size="41"]');
-const btn42 = document.querySelector('[data-size="42"]');
+const btn425 = document.querySelector('[data-size="425"]');
+const btn43 = document.querySelector('[data-size="43"]');
+const btn44 = document.querySelector('[data-size="44"]');
+const btn445 = document.querySelector('[data-size="445"]');
+const btn45 = document.querySelector('[data-size="45"]');
 const cost = document.querySelector("[data-cost]");
 
 btn40.addEventListener("click", function () {
@@ -93,10 +97,34 @@ btn41.addEventListener("click", function () {
   console.log("41 size");
   cost.innerText = "₽ 17 591";
 });
-//Размер 42
+//Размер 42.5
 
 btn425.addEventListener("click", function () {
   console.log("425 size");
+  cost.innerText = "₽ 17 591";
+});
+//Размер 43
+
+btn43.addEventListener("click", function () {
+  console.log("43 size");
+  cost.innerText = "₽ 17 591";
+});
+//Размер 44
+
+btn44.addEventListener("click", function () {
+  console.log("44 size");
+  cost.innerText = "₽ 17 591";
+});
+//Размер 44.5
+
+btn445.addEventListener("click", function () {
+  console.log("44.4 size");
+  cost.innerText = "₽ 17 591";
+});
+//Размер 45
+
+btn45.addEventListener("click", function () {
+  console.log("45 size");
   cost.innerText = "₽ 17 591";
 });
 

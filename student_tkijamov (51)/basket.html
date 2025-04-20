@@ -1,53 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Медиа-запросы</title>
-    <link rel="stylesheet" href="styledelivers.css">
+    <link rel="stylesheet" href="styledelivers.css" />
     <script defer src="js/main.js"></script>
-</head>
+  </head>
 
-<div id = "wrap">
-	<header class="container">
-       
-        
-<div class = "logo">KIAMOV store</div>
-<nav class = "menu" >
-    <ul>
-        <li><a class="menu" href="brands.html">Доставки</a></li>
-        <li><a class="menu" href="https://yandex.ru">Избранное</a></li>
-        <li><a class="menu" href="https://yandex.ru">Профиль</a></li>
-        <li><a class="menu" href="https://yandex.ru">Корзина</a></li>
-    </ul>
-</nav>
-<img class="navigation" src="images/Group 2.svg">
-<img class="search" src="images/Frame 5.svg">
-
-        
+  <div id="wrap">
+    <header class="container">
+      <div class="logo">KIAMOV store</div>
+      <nav class="menu">
+        <ul>
+          <li><a class="menu" href="brands.html">Доставки</a></li>
+          <li><a class="menu" href="https://yandex.ru">Избранное</a></li>
+          <li><a class="menu" href="https://yandex.ru">Профиль</a></li>
+          <li><a class="menu" href="https://yandex.ru">Корзина</a></li>
+        </ul>
+      </nav>
+      <img class="navigation" src="images/Group 2.svg" />
+      <img class="search" src="images/Frame 5.svg" />
     </header>
-<body>
-    <div class="app-error-page flex-grow-1 d-flex flex-column justify-center"> 
-    <div class="container container--fluid">
-<div class="row align-content-center"> 
-<div class="d-flex justify-center col col-12" style="margin-left:70px;">
-<h1>Страница не найдена</h1>
-</div>
-<div class="text-center col col-12">
-<div class="app-checkout-fail_text mx-auto">
-" Упс! Кажется, страница находится в разработке. Будем ждать вас позже "
-</div>
-</div>
-<div class="text-center col col-12">
-<a href="index.html" class="v-btn v-btn--has-bg v-btn--router theme--dark v-size--default accent" style="height: 57px; width:200px;margin-right:200px; padding-top:30px;"> 
-<span class="v-btn__content">Вернуться назад</span> 
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="https://i.ibb.co/GP3dyzw/IMG-6199.jpg" />
+        <title>Frontend-кейс</title>
+        <link rel="stylesheet" href="./style/basket.css" />
+        <script src="./js/basket.js" type="module" defer></script>
+      </head>
+      <body>
+        <div class="wrapper">
+          <h1>Корзина</h1>
+          <div class="cart"></div>
+          <button class="btn-send">Оформить заказ</button>
+
+          <a href="/basket.html" class="basket">
+            <div class="basket__inner">
+              <svg
+                width="38"
+                height="38"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M.75-.02a.75.75 0 100 1.5l.408-.006 1.606 1.281 1.839 6.881L4.237 12a2 2 0 102.188 2.722l5.705.028a2 2 0 100-1.5l-5.705-.028a2.007 2.007 0 00-.722-.898l.438-2.632 7.933.027 1.91-7.715H4.227L1.683-.026 1.68-.02v-.005L.75-.02z"
+                  fill="#000"
+                ></path>
+              </svg>
+              <span class="basket__count">0</span>
+            </div>
+          </a>
+          <a class="home" href="/">
+            <svg
+              width="45"
+              height="45"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.98 1.984l7 6h-2.003v6H9.96V10.97H5.997v3.016H2.982v-6H.979l7-6z"
+                fill="#000"
+              ></path>
+            </svg>
+          </a>
+        </div>
+
+        <footer
+          style="
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 10px 0;
+          "
+        >
+          Подключайся к нам в телеграмм
+          <a target="_blank" href="https://t.me/frontend_case">@frontend_case</a
+          >. Помощь новичкам! Будем развиваться во фронтенд разработке вместе :)
+        </footer>
+      </body>
+    </html>
+  </div>
+</html>
